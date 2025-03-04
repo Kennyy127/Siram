@@ -1,8 +1,8 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #bc8b8b;
+    background-color: #ded2c6;
 }
 
 /* Sticky Header */
@@ -74,6 +74,10 @@ nav a:hover {
     background: darkred;
 }
 
+h1, h2, h3 {
+    font-family: "Helvetica", Arial, sans-serif;
+}
+
 .about {
     text-align: center;
     display: flex;
@@ -118,7 +122,7 @@ nav a:hover {
 }
 
 .mission-list li {
-    background: #bc8b8b;
+    background: #ded2c6;
     padding: 15px 20px;
     border-radius: 8px;
     width: 100%;
@@ -163,7 +167,7 @@ nav a:hover {
 
 /* Menu Section */
 .menu {
-    background: #bc8b8b;
+    background: #ded2c6;
     text-align: center;
 }
 
@@ -188,6 +192,7 @@ nav a:hover {
 }
 
 .menu-item h3 {
+    font-family:  Arial, Helvetica, sans-serif;
     color: red;
 }
 
